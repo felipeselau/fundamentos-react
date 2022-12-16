@@ -6,11 +6,15 @@ import Aluno from './components/basicos/Aluno'
 import Aleatorio from './components/basicos/Aleatorio'
 import Card from './components/layout/Card'
 
+import './components/layout/styles/App.css'
+
 
 export default _ =>
 
     <div id="app">
-        <h2>Fundamentos React</h2>
+        <h2 id="page-title">Fundamentos React</h2>
+
+        <div className="container">
 
         <Card
             titulo="#04 - Desafio Aleatório">
@@ -37,5 +41,8 @@ export default _ =>
             titulo="#01 - Primeiro Componente">
             <Primeiro></Primeiro>
         </Card>
+
+        </div>
+        
     </div>
 

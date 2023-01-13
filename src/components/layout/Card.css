@@ -1,9 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    width: 100vw;
+    height: 8vh;
+    font-size: 2.2em;
+}
+
 .Card{
     background-color: red;
     border: 3px solid red;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .Title{
@@ -13,8 +36,24 @@
 }
 
 .Content{
+    justify-content: center;
+    align-items: center;
     background-color: #fff;
     color: #000;
+    height: 100%;
     padding: 20px;
     margin: 0px;
+}
+
+#Add{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c20000;
+    border-color: #c20000;
+}
+
+ul{
+    list-style: none;
 }

@@ -10,6 +10,8 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 
+import './components/layout/styles/App.css'
+
 
 export default _ =>
 
@@ -53,5 +55,7 @@ export default _ =>
             titulo="#01 - Primeiro Componente">
             <Primeiro></Primeiro>
         </Card>
-    </div>
+
+        </div>
+
 

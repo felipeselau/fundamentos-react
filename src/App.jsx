@@ -10,8 +10,6 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 
-import './components/layout/styles/App.css'
-
 
 export default _ =>
 

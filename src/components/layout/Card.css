@@ -24,13 +24,9 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
-<<<<<<< HEAD:src/components/layout/Card.css
     width: 40vw;
     display: flex;
     flex-direction: column;
-=======
-    width: 20%;
->>>>>>> 6d061b2c90829f12acb6374f7ea279a7ac52e5e7:src/components/layout/styles/Card.css
 }
 
 .Title{
@@ -47,21 +43,9 @@
     height: 100%;
     padding: 20px;
     margin: 0px;
-<<<<<<< HEAD:src/components/layout/Card.css
-}
-
-#Add{
-    height: 6vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #c20000;
-    border-color: #c20000;
+    height: 100%;
 }
 
 ul{
     list-style: none;
-=======
-    height: 100%;
->>>>>>> 6d061b2c90829f12acb6374f7ea279a7ac52e5e7:src/components/layout/styles/Card.css
 }

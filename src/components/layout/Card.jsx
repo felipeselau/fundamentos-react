@@ -1,4 +1,4 @@
-import './styles/Card.css'
+import './Card.css'
 
 export default props => {
     return(
